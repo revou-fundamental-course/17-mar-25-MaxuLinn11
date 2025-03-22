@@ -1,1 +1,23 @@
 /*Ini CSS External*/
+.body {
+    background-color: burlywood;
+}
+.judul-besar {
+        text-align: center;
+        background-color: orangered;
+        font-family: Arial, Helvetica, sans-serif;
+        color: azure;
+        padding: 2px;
+        margin: 0px;
+        justify-content: center;
+        flex-wrap: nowrap;
+        display: flex;
+}
+
+.head {
+    text-align: center;
+}
+
+.keterangan-persegi1 {
+    text-align-last: left;
+}
