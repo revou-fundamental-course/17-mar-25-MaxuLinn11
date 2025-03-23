@@ -1,6 +1,9 @@
 /*Ini CSS External*/
 .body {
-    background-color: burlywood;
+    background-color: lightgrey;
+    padding: 20px;
+
+
 }
 .judul-besar {
         text-align: center;
@@ -12,10 +15,18 @@
         justify-content: center;
         flex-wrap: nowrap;
         display: flex;
+        font-size: large;
 }
 
+.kalimat-pembuka {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .head {
     text-align: center;
+    margin: 0px;
+
 }
 
 .keterangan-persegi1 {

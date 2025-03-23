@@ -10,42 +10,88 @@
 </head>
 <body class="body">
     <header class="judul-besar">
-        <h1>
-            Katik</h1>
-        <h1>
-            Kalkulator Matematik</h1>
+        <p>
+            <strong>Katik</strong> Kalkulator Matematik
+        </p>
     </header>
 
     <main>
-            <div class="head">
-            <h1 class="judul-welcome">
-                Walcome to Katik
-            </h1>
-
-            <p>
-                Halo! Selamat datang di Katik.</p>
-            <p>
-                Website penambah ilmu pengetahuan dan pesawat yang akan mempermudah kehidupan mu</p>
-
-            <div>
-                <a>Persegi</p>
-                <p>Persegi Panjang</p>
+        <section class="welcome-page">
+            <p id="welcome">Welcome to Katik</p>
+            <p>Halo! Selamat datang di Katik.</p>
+            <p>Website penambah ilmu pengetahuan dan pesawat yang akan mempermudah kehidupan mu.</p>
+            <div class="link">
+                <a href="#Persegi" id="link1">Persegi</a>
+                <a href="#Persegi-Panjang" id="link2">Persegi Panjang</a>
             </div>
-            <div>
-                <head>
-                    <h1>
-                    Luas Persegi</h1>
-                    <img src="Asset\Persegi.jpg" alt="Persegi">
-                    <div class="keterangan-persegi1">
-                    <p>Rumus untuk menghitung luas persegi adalah</p>
-                    <p>L persegi = S x S</p>
-                    <p>Keterangan:</p>
-                    <p>L = luas</p>
-                    <p>S = sisi</p>
+        </section>
+        <section class="main-content">
+            <div id="Persegi">
+                <h1 class="title">Persegi</h1>
+                <p>Persegi adalah bentuk geometris yang sangat simetris. Persegi memiliki empat sisi yang sama panjang dan empat sudut yang sama besar (90 derajat). Kesempurnaan ini membuatnya sangat penting dalam geometri dan desain. Dalam bidang matematika, persegi sangat sering di gunakan untuk melambangkan satuan luas seperti meter persegi, centimeter persegi, dan yang lainnya.
+                </p>
+                <img src="Asset\Persegi.jpg" alt="Persegi"> Gambar Persegi
+                    <div class="container">
+                        <div class="luas-persegi">
+                            <h1>Luas Persegi</h1>
+                            <p>Rumus untuk menghitung luas persegi adalah:</p>
+                            <p class="rumus"><strong>L = S x S</strong></p>
+                            <p>Keterangan:</p>
+                            <p>L = Luas</p>
+                            <P>S = Sisi</P>
+                            <h1 id="title-hitung-luas-persegi">Hitung Luas Persegi</h1>
+                            <input type="number" placeholder="Nilai S" oninput="toggleButton()">
+                            <button id="calculateButton" onclick="calculateArea()">Hitung</button>
+                            <div class="result" id="result"></div>
+                        </div>
+                        <div class="keliling">
+                            <h1>Keliling Persegi</h1>
+                            <p>Rumus untuk menghitung keliling persegi adalah:</p>
+                            <p class="rumus"><strong>K = 4 x S</strong></p>
+                            <p>Keterangan:</p>
+                            <p>K = Keliling</p>
+                            <P>S = Sisi</P>
+                            <h1 id="title-hitung-keliling-persegi">Hitung Keliling Persegi</h1>
+                            <input type="number" placeholder="Nilai S" oninput="toggleButton()">
+                            <button id="calculateButton" onclick="calculateArea()">Hitung</button>
+                            <div class="result" id="result"></div>
+                        </div>
                     </div>
-                </head>
             </div>
-    </div>
+
+            <div id="Persegi-Panjang">
+                <h1 class="title">Persegi Panjang</h1>
+                <p>Persegi adalah bentuk geometris yang sangat simetris. Persegi memiliki empat sisi yang sama panjang dan empat sudut yang sama besar (90 derajat). Kesempurnaan ini membuatnya sangat penting dalam geometri dan desain. Dalam bidang matematika, persegi sangat sering di gunakan untuk melambangkan satuan luas seperti meter persegi, centimeter persegi, dan yang lainnya.
+                </p>
+                <img src="Asset\Persegi Panjang.jpg" alt="Persegi-Panjang"> Gambar Persegi Panjang
+                    <div class="container">
+                        <div class="luas-persegi-panjang">
+                            <h1>Luas Persegi Panjang1>
+                            <p>Rumus untuk menghitung luas persegi panjang adalah:</p>
+                            <p class="rumus"><strong>L = P x l</strong></p>
+                            <p>Keterangan:</p>
+                            <p>L = Luas</p>
+                            <P>P = Panjang</P>
+                            <p>l = Lebar</p>
+                            <h1 id="title-hitung-luas-persegi-panjang">Hitung Luas Persegi Panjang</h1>
+                            <input type="number" placeholder="Nilai S" oninput="toggleButton()">
+                            <button id="calculateButton" onclick="calculateArea()">Hitung</button>
+                            <div class="result" id="result"></div>
+                        </div>
+                        <div class="keliling">
+                            <h1>Keliling Persegi</h1>
+                            <p>Rumus untuk menghitung keliling persegi adalah:</p>
+                            <p class="rumus"><strong>K = 4 x S</strong></p>
+                            <p>Keterangan:</p>
+                            <p>K = Keliling</p>
+                            <P>S = Sisi</P>
+                            <h1 id="title-hitung-keliling-persegi">Hitung Keliling Persegi</h1>
+                            <input type="number" placeholder="Nilai S" oninput="toggleButton()">
+                            <button id="calculateButton" onclick="calculateArea()">Hitung</button>
+                            <div class="result" id="result"></div>
+                        </div>
+                    </div>
+            </div>
     </main>
     <footer></footer>
 </body>
