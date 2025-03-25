@@ -115,11 +115,23 @@
     border: 1px;
     color: white;
     padding: 10px;
-    margin-left: 170px;
-    margin-right: 170px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 #title-counting {
-    margin: 0px;
-    margin-bottom: 5px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.result {
+    margin-bottom: 0%;
 }

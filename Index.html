@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project With RevoU-Wira Data</title>
     <link rel="stylesheet" href="CSS\style.css">
-
+    <script src="JS\script.js"></script>
 
 </head>
 <body class="body">
@@ -41,10 +41,10 @@
                             <P>S = Sisi</P>
                             <div class="section-hitungan">
                                 <p id="title-counting"><b>Hitung Luas Persegi</b></p>
-                                <input type="number" placeholder="Nilai S" oninput="toggleButton()">
-                                <button id="calculateButton" onclick="calculateArea()">Hitung</button>
-                                <div class="result" id="result">
-                            </div>
+                                <input id="nilai-sisi-luas-persegi" name="nilai-sisi-luas-persegi" type="number" placeholder="Masukkan Nilai Sisi" required >
+                                <br>
+                                <button onclick="hitungNilaiLuasPersegi()">Hitung</button>
+                                <p id="result"></p>
                         </div>
                     </div>
                         <div class="keliling">
