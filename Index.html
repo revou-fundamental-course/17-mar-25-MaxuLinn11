@@ -11,15 +11,14 @@
 <body class="body">
     <header class="judul-besar">
         <p>
-            <strong>Katik</strong> Kalkulator Matematik
-        </p>
+            <strong>Katik</strong> Kalkulator Matematik</p>
     </header>
 
     <main>
         <section class="welcome-page">
-            <p id="welcome">Welcome to Katik</p>
-            <p>Halo! Selamat datang di Katik.</p>
-            <p>Website penambah ilmu pengetahuan dan pesawat yang akan mempermudah kehidupan mu.</p>
+            <h1 id="welcome">Welcome to Katik</h1>
+            <p class="intro">Halo! Selamat datang di Katik.</p>
+            <p class="intro">Website penambah ilmu pengetahuan dan pesawat yang akan mempermudah kehidupan mu.</p>
             <div class="link">
                 <a href="#Persegi" id="link1">Persegi</a>
                 <a href="#Persegi-Panjang" id="link2">Persegi Panjang</a>
@@ -30,32 +29,39 @@
                 <h1 class="title">Persegi</h1>
                 <p>Persegi adalah bentuk geometris yang sangat simetris. Persegi memiliki empat sisi yang sama panjang dan empat sudut yang sama besar (90 derajat). Kesempurnaan ini membuatnya sangat penting dalam geometri dan desain. Dalam bidang matematika, persegi sangat sering di gunakan untuk melambangkan satuan luas seperti meter persegi, centimeter persegi, dan yang lainnya.
                 </p>
-                <img src="Asset\Persegi.jpg" alt="Persegi"> Gambar Persegi
+                <img src="Asset\Persegi.jpg" alt="Persegi" class="gambar-persegi"> 
+                <p id="keterangan-gambar-persegi">Gambar Persegi</p>
                     <div class="container">
                         <div class="luas-persegi">
-                            <h1>Luas Persegi</h1>
+                            <h1>A. Luas Persegi</h1>
                             <p>Rumus untuk menghitung luas persegi adalah:</p>
                             <p class="rumus"><strong>L = S x S</strong></p>
                             <p>Keterangan:</p>
                             <p>L = Luas</p>
                             <P>S = Sisi</P>
-                            <h1 id="title-hitung-luas-persegi">Hitung Luas Persegi</h1>
-                            <input type="number" placeholder="Nilai S" oninput="toggleButton()">
-                            <button id="calculateButton" onclick="calculateArea()">Hitung</button>
-                            <div class="result" id="result"></div>
+                            <div class="section-hitungan">
+                                <p id="title-counting"><b>Hitung Luas Persegi</b></p>
+                                <input type="number" placeholder="Nilai S" oninput="toggleButton()">
+                                <button id="calculateButton" onclick="calculateArea()">Hitung</button>
+                                <div class="result" id="result">
+                            </div>
                         </div>
+                    </div>
                         <div class="keliling">
-                            <h1>Keliling Persegi</h1>
+                            <h1>B. Keliling Persegi</h1>
                             <p>Rumus untuk menghitung keliling persegi adalah:</p>
                             <p class="rumus"><strong>K = 4 x S</strong></p>
                             <p>Keterangan:</p>
                             <p>K = Keliling</p>
                             <P>S = Sisi</P>
-                            <h1 id="title-hitung-keliling-persegi">Hitung Keliling Persegi</h1>
-                            <input type="number" placeholder="Nilai S" oninput="toggleButton()">
-                            <button id="calculateButton" onclick="calculateArea()">Hitung</button>
-                            <div class="result" id="result"></div>
+                            <div class="section-hitungan">
+                                <p id="title-counting"><b>Hitung Keliling Persegi</b></p>
+                                <input type="number" placeholder="Nilai S" oninput="toggleButton()">
+                                <button id="calculateButton" onclick="calculateArea()">Hitung</button>
+                                <div class="result" id="result">
+                            </div>
                         </div>
+                    </div>
                     </div>
             </div>
 
@@ -63,33 +69,41 @@
                 <h1 class="title">Persegi Panjang</h1>
                 <p>Persegi adalah bentuk geometris yang sangat simetris. Persegi memiliki empat sisi yang sama panjang dan empat sudut yang sama besar (90 derajat). Kesempurnaan ini membuatnya sangat penting dalam geometri dan desain. Dalam bidang matematika, persegi sangat sering di gunakan untuk melambangkan satuan luas seperti meter persegi, centimeter persegi, dan yang lainnya.
                 </p>
-                <img src="Asset\Persegi Panjang.jpg" alt="Persegi-Panjang"> Gambar Persegi Panjang
+                <img src="Asset\Persegi Panjang.jpg" alt="Persegi-Panjang" class="gambar-persegi-panjang"> 
+                <p id="keterangan-gambar-persegi">Gambar Persegi Panjang</p>
                     <div class="container">
                         <div class="luas-persegi-panjang">
-                            <h1>Luas Persegi Panjang1>
+                            <h1>A. Luas Persegi Panjang</h1>
                             <p>Rumus untuk menghitung luas persegi panjang adalah:</p>
                             <p class="rumus"><strong>L = P x l</strong></p>
                             <p>Keterangan:</p>
                             <p>L = Luas</p>
                             <P>P = Panjang</P>
                             <p>l = Lebar</p>
-                            <h1 id="title-hitung-luas-persegi-panjang">Hitung Luas Persegi Panjang</h1>
-                            <input type="number" placeholder="Nilai S" oninput="toggleButton()">
-                            <button id="calculateButton" onclick="calculateArea()">Hitung</button>
-                            <div class="result" id="result"></div>
+                            <div class="section-hitungan">
+                                <p id="title-counting"><b>Hitung Luas Persegi Panjang</b></p>
+                                <input type="number" placeholder="Nilai S" oninput="toggleButton()">
+                                <button id="calculateButton" onclick="calculateArea()">Hitung</button>
+                                <div class="result" id="result">
+                            </div>
                         </div>
+                    </div>
                         <div class="keliling">
-                            <h1>Keliling Persegi</h1>
-                            <p>Rumus untuk menghitung keliling persegi adalah:</p>
-                            <p class="rumus"><strong>K = 4 x S</strong></p>
+                            <h1>B. Keliling Persegi Panjang</h1>
+                            <p>Rumus untuk menghitung keliling persegi panjang adalah:</p>
+                            <p class="rumus"><strong>K = 2 x (P+l)</strong></p>
                             <p>Keterangan:</p>
                             <p>K = Keliling</p>
-                            <P>S = Sisi</P>
-                            <h1 id="title-hitung-keliling-persegi">Hitung Keliling Persegi</h1>
-                            <input type="number" placeholder="Nilai S" oninput="toggleButton()">
-                            <button id="calculateButton" onclick="calculateArea()">Hitung</button>
-                            <div class="result" id="result"></div>
+                            <P>P = Panjang</P>
+                            <p>l = Lebar</p>
+                            <div class="section-hitungan">
+                                <p id="title-counting"><b>Hitung Keliling Persegi Panjang</b></p>
+                                <input type="number" placeholder="Nilai S" oninput="toggleButton()">
+                                <button id="calculateButton" onclick="calculateArea()">Hitung</button>
+                                <div class="result" id="result">
+                            </div>
                         </div>
+                    </div>
                     </div>
             </div>
     </main>

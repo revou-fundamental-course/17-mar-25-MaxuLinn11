@@ -1,16 +1,16 @@
 /*Ini CSS External*/
 .body {
-    background-color: lightgrey;
+    background-color: whitesmoke;
     padding: 20px;
-
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .judul-besar {
         text-align: center;
-        background-color: orangered;
+        background-color: red;
         font-family: Arial, Helvetica, sans-serif;
         color: azure;
-        padding: 2px;
+        padding: 10px;
         margin: 0px;
         justify-content: center;
         flex-wrap: nowrap;
@@ -18,17 +18,108 @@
         font-size: large;
 }
 
-.kalimat-pembuka {
+.welcome-page {
+    background-color: white;
+    padding: 20px;
+    border: 1px;
+    margin-top: 30px;
+}
+
+#welcome {
     text-align: center;
+}
+
+.intro {
     margin-top: 0px;
     margin-bottom: 0px;
-}
-.head {
     text-align: center;
-    margin: 0px;
-
 }
 
-.keterangan-persegi1 {
-    text-align-last: left;
+.title {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.link {
+    display: inline-flex;
+    border: 1px solid;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#link1 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#link1:hover {
+    background-color: palevioletred;
+    color: white;
+}
+#link2 {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.main-content {
+    background-color: white;
+    padding: 30px;
+    border: 1px;
+}
+
+.gambar-persegi {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#keterangan-gambar-persegi {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.gambar-persegi-panjang {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#keterangan-gambar-persegi-panjang {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.rumus {
+    text-align: center;
+}
+
+.section-hitungan {
+    text-align: center;
+    background-color: red;
+    border: 1px;
+    color: white;
+    padding: 10px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#title-counting {
+    margin: 0px;
+    margin-bottom: 5px;
 }
