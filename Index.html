@@ -11,7 +11,7 @@
 
 <body class="body">
     <header class="judul-besar">
-        <p><strong>Katik</strong> Kalkulator Matematik</p>
+        <p id="katik"><strong>Katik</strong> Kalkulator Matematik</p>
     </header>
 
     <main>
@@ -104,7 +104,7 @@
                             <div class="section-hitungan">
                                 <p id="title-counting"><b>Hitung Luas Persegi Panjang</b></p>
                                 <input id="nilai-panjang-luas-persegi-panjang" class="input" type="number" placeholder="Masukkan nilai panjang (m)" required>
-                                <input type="number" id="nilai-lebar-luas-persegi-panjang" placeholder="Masukkan nilai lebar (m)" required>
+                                <input type="number" id="nilai-lebar-luas-persegi-panjang" class="input" placeholder="Masukkan nilai lebar (m)" required>
                                 <br>
                                 <button onclick="hitungNilaiLuasPersegiPanjang()">Hitung</button>
                                 <button class="reset-button" onclick="resetNilaiLuasPersegiPanjang()">Reset</button>
@@ -129,7 +129,7 @@
                             <div class="section-hitungan">
                                 <p id="title-counting"><b>Hitung Keliling Persegi Panjang</b></p>
                                 <input id="nilai-panjang-keliling-persegi-panjang" class="input" type="number" placeholder="Masukkan nilai panjang (m)" required>
-                                <input type="number" id="nilai-lebar-keliling-persegi-panjang" placeholder="Masukkan nilai lebar (m)" required>
+                                <input type="number" id="nilai-lebar-keliling-persegi-panjang" class="input" placeholder="Masukkan nilai lebar (m)" required>
                                 <br>
                                 <button onclick="hitungNilaiKelilingPersegiPanjang()">Hitung</button>
                                 <button class="reset-button" onclick="resetNilaiKelilingPersegiPanjang()">Reset</button>
@@ -142,8 +142,8 @@
                 </div>
             </div>
     </main>
-    <footer>
-        Copyrigth @wira.data
+    <footer id="footer">
+        Copyrigth @wira.data 2025
     </footer>
 </body>
 </html>

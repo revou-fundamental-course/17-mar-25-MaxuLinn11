@@ -89,7 +89,7 @@
     color: white;
     text-align: center;
     padding: 30px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 #title-counting {
     margin: 10px;
@@ -110,7 +110,7 @@
 .gambar-bangun-datar {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 30%;
 }
 #keterangan-gambar-persegi {
     text-align: center;
@@ -175,8 +175,27 @@ cursor: pointer;
     width: 40%;}
 /* ini batasnya */
 
+/* Style footer */
+#footer {
+    text-align: center;
+    margin: 10%;
+}
+#katik {
+    background-color: yellow;
+    color:purple;
+    border-radius: 5px;
+    padding: 5%;
+}
+
 /* Style media querry */
 @media screen and (max-width: 550px) {
+    #katik {
+        background-color: yellow;
+        color:purple;
+        border-radius: 5px;
+        padding: 5%;
+        margin-left: 100%;
+        margin-right: 100%;
     .body {
         font-size: 14px;
         width: auto;
