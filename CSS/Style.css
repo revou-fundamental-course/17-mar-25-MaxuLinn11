@@ -37,6 +37,7 @@
     margin-bottom: 0px;
     text-align: center;
 }
+/* ini batasnya */
 
 /* Tombol navigasi */
 .link {
@@ -80,6 +81,7 @@
     background-color: plum;
     color: white
 }
+/* ini batasnya */
 
 /* Style judul */
 .title {
@@ -87,13 +89,13 @@
     color: white;
     text-align: center;
     padding: 30px;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
 #title-counting {
     margin: 10px;
     margin-bottom: 10px;
 }
+/* ini batasnya */
 
 
 /* Style content */
@@ -102,35 +104,29 @@
     padding: 30px;
     border: 1px;
 }
+/* ini batasnya */
 
 /* Style asset gambar di webiste */
-.gambar-persegi {
-    width: 300px;
-    height: auto;
+.gambar-bangun-datar {
     display: block;
     margin: 0 auto;
-    text-align: center;
+    width: 50%;
 }
 #keterangan-gambar-persegi {
     text-align: center;
     margin-top: 1%;
 }
-.gambar-persegi-panjang {
-    width: 300px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
 #keterangan-gambar-persegi-panjang {
     text-align: center;
     margin-top: 1%;
 }
+/* ini batasnya */
 
 /* Style rumus */
 .rumus {
     text-align: center;
 }
+/* ini batasnya */
 
 /* Style section */
 .section-page {
@@ -146,15 +142,17 @@
     border: 1px;
     color: black;
     padding: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 10px;
 }
+/* ini batasnya */
 
 /* Style kalimat hasil calculating */
 .result {
     margin-bottom: 0%;
 }
+/* ini batasnya */
 
 /* Style tombol */
 button {
@@ -166,7 +164,37 @@ button {
     background-color: green;
 }
 
+button:hover{
+background-color: purple;
+cursor: pointer;
+}
 .reset-button {
     background-color: red;
-    color: white;
-}
+    color: white;}
+.input {
+    width: 40%;}
+/* ini batasnya */
+
+/* Style media querry */
+@media screen and (max-width: 550px) {
+    .body {
+        font-size: 14px;
+        width: auto;
+    }
+    .link {
+        overflow: hidden;
+        align-content: center;
+        justify-self: anchor-center;
+        margin-top: 10%;
+        display: grid;
+    }
+    .section-hitungan {
+        text-align: center;
+        background-color: yellow;
+        border: 1px;
+        color: black;
+        padding: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;}
+/* ini batasnya */

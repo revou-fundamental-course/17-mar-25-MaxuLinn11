@@ -21,6 +21,8 @@
             <h1 id="welcome">Welcome to Katik</h1>
             <p class="intro">Halo! Selamat datang di Katik.</p>
             <p class="intro">Website kalkulator matematik, may everyone find joy here! </p>
+           
+            <!-- Ini tombol navigasi -->
             <div class="link">
                 <a href="#persegi" id="link1">Persegi</a>
                 <a href="#persegi-panjang" id="link2">Persegi Panjang</a>
@@ -32,7 +34,7 @@
             <!-- Section Informasi Persegi -->
             <div id="persegi">
                 <h1 class="title">Persegi</h1>  
-                <img src="Asset\Persegi.jpg" alt="Persegi" class="gambar-persegi"> 
+                <img src="Asset\Persegi.jpg" alt="Persegi" class="gambar-bangun-datar"> 
                 <p id="keterangan-gambar-persegi">Gambar Persegi</p>
                     <div class="container">
 
@@ -48,7 +50,7 @@
                             <!-- Perhitungan Luas Persegi -->
                             <div class="section-hitungan">
                                 <p id="title-counting"><b>Hitung Luas Persegi</b></p>
-                                <input id="nilai-sisi-luas-persegi" type="number" placeholder="Masukkan Nilai Sisi (m)" required>
+                                <input id="nilai-sisi-luas-persegi" class="input" type="number" placeholder="Masukkan Nilai Sisi (m)" required>
                                 <br>
                                 <button onclick="hitungNilaiLuasPersegi()">Hitung</button>
                                 <button class="reset-button" onclick="resetNilaiLuasPersegi()">Reset</button>
@@ -70,7 +72,7 @@
                             <!-- Perhitungan Keliling Persegi -->
                             <div class="section-hitungan">
                                 <p id="title-counting"><b>Hitung Keliling Persegi</b></p>
-                                <input id="nilai-sisi-keliling-persegi" type="number" placeholder="Masukkan Nilai Sisi (m)" required >
+                                <input id="nilai-sisi-keliling-persegi" class="input" type="number" placeholder="Masukkan Nilai Sisi (m)" required >
                                 <br>
                                 <button onclick="hitungNilaiKelilingPersegi()">Hitung</button>
                                 <button class="reset-button" onclick="resetNilaiKelilingPersegi()">Reset</button>
@@ -84,8 +86,7 @@
             <!-- Informasi Perhitungan Persegi Panjang -->
             <div id="persegi-panjang">
                 <h1 class="title">Persegi Panjang</h1>
-                <p> Persegi panjang adalah bangun datar yang di mana semua sisi yang berhadapan memiliki sama panjang. Persegi panjang sangat umum dalam kehidupan sehari-hari contohnya buku, pintu hingga lapangan sepakbola. Bentuk persegi panjang sering digunakan dalam arsitektur dan desain karena stabilitas, efisiensi dan penggunaan ruang yang optimal.</p>
-                <img src="Asset\Persegi Panjang.jpg" alt="Persegi-Panjang" class="gambar-persegi-panjang"> 
+                <img src="Asset\Persegi Panjang.jpg" alt="Persegi-Panjang" class="gambar-bangun-datar"> 
                 <p id="keterangan-gambar-persegi">Gambar Persegi Panjang</p>
                     
                 <!-- Section Informasi Perhitungan Luas Persegi Panjang -->
@@ -102,7 +103,7 @@
                             <!-- Perhitungan Luas Persegi Panjang -->
                             <div class="section-hitungan">
                                 <p id="title-counting"><b>Hitung Luas Persegi Panjang</b></p>
-                                <input id="nilai-panjang-luas-persegi-panjang" type="number" placeholder="Masukkan nilai panjang (m)" required>
+                                <input id="nilai-panjang-luas-persegi-panjang" class="input" type="number" placeholder="Masukkan nilai panjang (m)" required>
                                 <input type="number" id="nilai-lebar-luas-persegi-panjang" placeholder="Masukkan nilai lebar (m)" required>
                                 <br>
                                 <button onclick="hitungNilaiLuasPersegiPanjang()">Hitung</button>
@@ -127,7 +128,7 @@
                             <!-- Perhitungan keliling persegi panjang -->
                             <div class="section-hitungan">
                                 <p id="title-counting"><b>Hitung Keliling Persegi Panjang</b></p>
-                                <input id="nilai-panjang-keliling-persegi-panjang" name="nilai-panjang-keliling-persegi-panjang" type="number" placeholder="Masukkan nilai panjang (m)" required>
+                                <input id="nilai-panjang-keliling-persegi-panjang" class="input" type="number" placeholder="Masukkan nilai panjang (m)" required>
                                 <input type="number" id="nilai-lebar-keliling-persegi-panjang" placeholder="Masukkan nilai lebar (m)" required>
                                 <br>
                                 <button onclick="hitungNilaiKelilingPersegiPanjang()">Hitung</button>
